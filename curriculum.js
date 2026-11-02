@@ -17,28 +17,32 @@ window.STUDY_CURRICULUM=[
         "type": "영상 강의",
         "cost": "무료",
         "url": "https://cs50.harvard.edu/python/",
-        "why": "영어 강의·과제 포함. 주교재로 추천"
+        "why": "영어 강의·과제 포함. 주교재로 추천",
+        "target": "변수·입력·조건문·반복문을 스스로 구현하고 간단한 과제를 풀 수 있다."
       },
       {
         "title": "혼자 공부하는 파이썬 저자 직강",
         "type": "한국어 영상",
         "cost": "현재 무료 표시",
         "url": "https://www.hanbit.co.kr/product/C5104434431",
-        "why": "한국어 설명이 필요한 날 보충"
+        "why": "한국어 설명이 필요한 날 보충",
+        "target": "강의 예시 없이 변수·조건문·반복문을 직접 따라 만들 수 있다."
       },
       {
         "title": "Python 공식 한국어 튜토리얼",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.python.org/ko/3/tutorial/",
-        "why": "문법 확인·복습"
+        "why": "문법 확인·복습",
+        "target": "문자열·자료형·함수 문법을 찾아보고 코드에 적용할 수 있다."
       },
       {
         "title": "혼자 공부하는 파이썬(개정판)",
         "type": "선택 도서",
         "cost": "구매 선택",
         "url": "https://www.hanbit.co.kr/books/B1681646737?code=B1681646737",
-        "why": "종이책이 편한 경우에만 구매"
+        "why": "종이책이 편한 경우에만 구매",
+        "target": "예제 설명을 읽고 다른 입력값으로 코드를 바꿀 수 있다."
       }
     ]
   },
@@ -60,21 +64,24 @@ window.STUDY_CURRICULUM=[
         "type": "영상 강의",
         "cost": "무료",
         "url": "https://cs50.harvard.edu/python/",
-        "why": "예외처리·파일·정규식·객체"
+        "why": "예외처리·파일·정규식·객체",
+        "target": "예외처리·파일·객체 기본을 설명하고 직접 코딩할 수 있다."
       },
       {
         "title": "GitHub Skills: Introduction to GitHub",
         "type": "실습 강의",
         "cost": "무료",
         "url": "https://github.com/skills/introduction-to-github",
-        "why": "branch, commit, PR 직접 실습"
+        "why": "branch, commit, PR 직접 실습",
+        "target": "branch·commit·pull request를 만들어 변경 이력을 설명할 수 있다."
       },
       {
         "title": "pytest 시작하기",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.pytest.org/en/stable/getting-started.html",
-        "why": "단위 테스트 구현"
+        "why": "단위 테스트 구현",
+        "target": "assert로 예상 결과를 검증하고 실패 메시지를 해석할 수 있다."
       }
     ]
   },
@@ -96,21 +103,24 @@ window.STUDY_CURRICULUM=[
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
-        "why": "요청/응답, 헤더 이해"
+        "why": "요청/응답, 헤더 이해",
+        "target": "HTTP 요청·응답·헤더·상태 코드의 역할을 설명할 수 있다."
       },
       {
         "title": "SQLBolt",
         "type": "브라우저 실습",
         "cost": "무료",
         "url": "https://sqlbolt.com/",
-        "why": "SELECT부터 JOIN까지 직접 연습"
+        "why": "SELECT부터 JOIN까지 직접 연습",
+        "target": "WHERE·JOIN 쿼리를 실제 데이터로 작성할 수 있다."
       },
       {
         "title": "Python sqlite3",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.python.org/3/library/sqlite3.html",
-        "why": "Python과 DB 연결"
+        "why": "Python과 DB 연결",
+        "target": "SQLite 연결과 조회 결과를 Python으로 출력할 수 있다."
       }
     ]
   },
@@ -132,21 +142,24 @@ window.STUDY_CURRICULUM=[
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://fastapi.tiangolo.com/ko/tutorial/",
-        "why": "단계별 API 서버 구현"
+        "why": "단계별 API 서버 구현",
+        "target": "경로·요청 본문·응답 모델을 갖춘 API를 직접 구현할 수 있다."
       },
       {
         "title": "FastAPI 인증·보안 가이드",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://fastapi.tiangolo.com/tutorial/security/",
-        "why": "인증·권한 구조 입문"
+        "why": "인증·권한 구조 입문",
+        "target": "인증과 인가를 구분하고 인증 흐름을 그림으로 설명할 수 있다."
       },
       {
         "title": "PostgreSQL 튜토리얼",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://www.postgresql.org/docs/current/tutorial.html",
-        "why": "실무형 관계형 DB 익히기"
+        "why": "실무형 관계형 DB 익히기",
+        "target": "테이블·키·SQL 조회의 기본 구조를 구현할 수 있다."
       }
     ]
   },
@@ -168,28 +181,32 @@ window.STUDY_CURRICULUM=[
         "type": "공식 실습",
         "cost": "무료",
         "url": "https://ubuntu.com/tutorials/command-line-for-beginners",
-        "why": "리눅스 명령어 기본"
+        "why": "리눅스 명령어 기본",
+        "target": "파일 이동·검색·읽기·권한 확인 명령을 실행할 수 있다."
       },
       {
         "title": "혼자 공부하는 네트워크",
         "type": "선택 도서",
         "cost": "구매 선택",
         "url": "https://www.hanbit.co.kr/books/B3633191758?code=B3633191758",
-        "why": "그림과 예제로 네트워크 기초"
+        "why": "그림과 예제로 네트워크 기초",
+        "target": "DNS·IP·TCP·HTTP 통신 과정의 관계를 설명할 수 있다."
       },
       {
         "title": "이것이 우분투 리눅스다(3판)",
         "type": "선택 도서",
         "cost": "구매 선택",
         "url": "https://lms.hanbit.co.kr/books/B1198272272?code=B1198272272",
-        "why": "리눅스 심화 실습이 필요할 때"
+        "why": "리눅스 심화 실습이 필요할 때",
+        "target": "계정·프로세스·권한 등 리눅스 관리 개념을 설명할 수 있다."
       },
       {
         "title": "우분투 리눅스 저자 직강",
         "type": "한국어 영상",
         "cost": "현재 무료 표시",
         "url": "https://lms.hanbit.co.kr/product/C2033019625",
-        "why": "명령어·서버 환경 시연"
+        "why": "명령어·서버 환경 시연",
+        "target": "우분투 명령어를 실행하고 오류 메시지의 의미를 말할 수 있다."
       }
     ]
   },
@@ -211,21 +228,24 @@ window.STUDY_CURRICULUM=[
         "type": "공식 실습",
         "cost": "무료",
         "url": "https://docs.docker.com/get-started/",
-        "why": "컨테이너·빌드·실행"
+        "why": "컨테이너·빌드·실행",
+        "target": "Docker 이미지·컨테이너·Dockerfile 차이를 설명하고 실행할 수 있다."
       },
       {
         "title": "GitHub Actions 공식 문서",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.github.com/en/actions",
-        "why": "CI/CD 자동화"
+        "why": "CI/CD 자동화",
+        "target": "push 때 자동 테스트가 실행되는 워크플로를 작성할 수 있다."
       },
       {
         "title": "pytest 공식 문서",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.pytest.org/en/stable/",
-        "why": "테스트 구조 심화"
+        "why": "테스트 구조 심화",
+        "target": "정상·오류 입력을 포함한 자동 테스트를 스스로 설계할 수 있다."
       }
     ]
   },
@@ -247,21 +267,24 @@ window.STUDY_CURRICULUM=[
         "type": "공식 강의",
         "cost": "일부 무료",
         "url": "https://aws.amazon.com/training/",
-        "why": "클라우드 핵심 개념·Skill Builder"
+        "why": "클라우드 핵심 개념·Skill Builder",
+        "target": "클라우드 컴퓨팅·스토리지·네트워크의 역할과 비용 위험을 설명할 수 있다."
       },
       {
         "title": "AWS IAM 사용자 안내서",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
-        "why": "최소 권한·접근제어 이해"
+        "why": "최소 권한·접근제어 이해",
+        "target": "IAM 역할·정책·최소 권한 원칙으로 접근 범위를 설명할 수 있다."
       },
       {
         "title": "AWS Well-Architected Framework",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
-        "why": "클라우드 설계 원칙"
+        "why": "클라우드 설계 원칙",
+        "target": "신뢰성·보안·비용 관점에서 설계 선택의 이유를 말할 수 있다."
       }
     ]
   },
@@ -283,21 +306,24 @@ window.STUDY_CURRICULUM=[
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://top10.owasp.org/2025/ko/",
-        "why": "현행 웹 보안 위험 지도"
+        "why": "현행 웹 보안 위험 지도",
+        "target": "접근제어·인증·입력 검증 등 웹 취약점의 원인을 설명할 수 있다."
       },
       {
         "title": "PortSwigger Web Security Academy",
         "type": "무료 실습",
         "cost": "무료",
         "url": "https://portswigger.net/web-security",
-        "why": "교육용 취약점 랩"
+        "why": "교육용 취약점 랩",
+        "target": "허가된 실습 환경에서 취약점을 재현하고 개선안을 제안할 수 있다."
       },
       {
         "title": "PortSwigger 처음 시작하기",
         "type": "무료 가이드",
         "cost": "무료",
         "url": "https://portswigger.net/web-security/getting-started",
-        "why": "실습 진행 순서"
+        "why": "실습 진행 순서",
+        "target": "랩의 목표를 이해하고 재현 절차·기대 결과를 기록할 수 있다."
       }
     ]
   },
@@ -319,21 +345,24 @@ window.STUDY_CURRICULUM=[
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.python.org/3/library/logging.html",
-        "why": "로깅·핸들러 이해"
+        "why": "로깅·핸들러 이해",
+        "target": "로그 수준·형식·핸들러를 이용해 분석 가능한 기록을 남길 수 있다."
       },
       {
         "title": "GitHub Code Scanning 소개",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
-        "why": "자동 검사 사례"
+        "why": "자동 검사 사례",
+        "target": "자동 보안 검사가 어떤 문제를 잡고 무엇을 놓치는지 설명할 수 있다."
       },
       {
         "title": "OWASP Top 10: 2025",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://top10.owasp.org/2025/ko/",
-        "why": "보안 체크리스트의 근거"
+        "why": "보안 체크리스트의 근거",
+        "target": "보안 위험 범주를 점검 항목으로 변환할 수 있다."
       }
     ]
   },
@@ -355,21 +384,24 @@ window.STUDY_CURRICULUM=[
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
-        "why": "보안 설계 원칙"
+        "why": "보안 설계 원칙",
+        "target": "보호할 자산·위협·접근 권한을 기준으로 보안 설계를 리뷰할 수 있다."
       },
       {
         "title": "AWS IAM 공식 가이드",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
-        "why": "권한 정책 검토"
+        "why": "권한 정책 검토",
+        "target": "IAM 정책의 과도한 권한과 최소 권한 사례를 설명할 수 있다."
       },
       {
         "title": "Google SRE 공개 도서",
         "type": "무료 온라인 도서",
         "cost": "무료",
         "url": "https://sre.google/books/",
-        "why": "장애·신뢰성 운영 기초"
+        "why": "장애·신뢰성 운영 기초",
+        "target": "SLI·SLO와 장애 대응의 기본 원리를 설명할 수 있다."
       }
     ]
   },
@@ -391,21 +423,24 @@ window.STUDY_CURRICULUM=[
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://genai.owasp.org/",
-        "why": "LLM·에이전트 보안 위험"
+        "why": "LLM·에이전트 보안 위험",
+        "target": "LLM 프롬프트 인젝션·데이터 유출·도구 권한 위험을 구분할 수 있다."
       },
       {
         "title": "Google SRE 공개 도서",
         "type": "무료 온라인 도서",
         "cost": "무료",
         "url": "https://sre.google/books/",
-        "why": "서비스 신뢰성 평가 관점"
+        "why": "서비스 신뢰성 평가 관점",
+        "target": "AI 응답 오류율·응답시간·실패 대응을 측정할 수 있다."
       },
       {
         "title": "FastAPI 공식 자습서",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://fastapi.tiangolo.com/ko/tutorial/",
-        "why": "AI 기능을 API로 서비스화"
+        "why": "AI 기능을 API로 서비스화",
+        "target": "AI 서비스를 API로 구성하고 입력 검증과 오류 처리를 구현할 수 있다."
       }
     ]
   },
@@ -427,21 +462,24 @@ window.STUDY_CURRICULUM=[
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
-        "why": "프로젝트 이해도 높이기"
+        "why": "프로젝트 이해도 높이기",
+        "target": "README에 설치·실행·재현 방법과 아키텍처를 쓸 수 있다."
       },
       {
         "title": "GitHub Actions",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://docs.github.com/en/actions",
-        "why": "실행 가능한 프로젝트 증거"
+        "why": "실행 가능한 프로젝트 증거",
+        "target": "테스트가 자동 실행되는 결과를 공개하고 설명할 수 있다."
       },
       {
         "title": "OWASP GenAI Security",
         "type": "공식 문서",
         "cost": "무료",
         "url": "https://genai.owasp.org/",
-        "why": "AI 보안 위험 근거"
+        "why": "AI 보안 위험 근거",
+        "target": "AI 보안 위협과 개선 사례를 문서로 제시할 수 있다."
       }
     ]
   }
