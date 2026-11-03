@@ -2,7 +2,7 @@
 const STUDY_QUIZ_KEY = 'study-planner-assessment-v1';
 let studyQuizProgress = {};
 try { studyQuizProgress = JSON.parse(localStorage.getItem(STUDY_QUIZ_KEY) || '{}') || {}; } catch (err) {}
-function saveQuizProgress() { try { localStorage.setItem(STUDY_QUIZ_KEY, JSON.stringify(studyQuizProgress)); } catch (err) {} }
+function saveQuizProgress() { try { localStorage.setItem(STUDY_QUIZ_KEY, JSON.stringify(studyQuizProgress)); window.studyCloud?.scheduleSave(); } catch (err) {} }
 function renderAssessment(containerId, itemKey, quiz) {
   const root = document.getElementById(containerId);
   if (!root) return;
