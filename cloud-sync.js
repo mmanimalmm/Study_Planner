@@ -77,7 +77,7 @@
     hide('cloudUpload',!cloud.remote);
     $('cloudChoiceHint').textContent=cloud.remote
       ? '클라우드에도 기록이 있어요. 기기 기록과 차이가 있으면 덮어쓰지 않고 직접 선택해야 해요.'
-      : (meaningful(localData())?'이 기기의 기존 학습 기록을 클라우드에 처음 저장할 수 있어요.':'클라우드에 기록이 아직 없어요. 동기화를 시작할 수 있어요.');
+      : (meaningful(localData())?'이 기기의 기존 학습 기록을 클라우드에 처음 저장할 수 있어요.':'이 기기에 학습 기록이 없어요. 집 노트북 등에 Day 기록이 있다면 그 기기에서 먼저 업로드하세요. 첫 사용자라면 여기서 시작해도 돼요.');
   }
   function clearDecision() {
     cloud.ready=false;cloud.dirty=false;clearTimeout(cloud.timer);
@@ -225,6 +225,7 @@
     }catch(e){status('동기화 확인 실패: '+(e.message||e),true)}
   }
   async function logout() {
+    if(cloud.saving){status('클라우드 저장이 진행 중이에요. 저장 완료 후 로그아웃해 주세요.',true);return}
     if(cloud.dirty&&cloud.ready) {
       await pushChanges();
       if(!cloud.ready){status('미저장 기록이 있어요. 문제 해결 후 로그아웃하거나 백업해 주세요.',true);return}
